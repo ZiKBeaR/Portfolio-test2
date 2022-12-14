@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter';
+  color: white; 
+}
+
+:root {
+  --primary: #6948ff;
+  --secondary: #553bcb;
+  --darkgrey: #22262a;
+  --lightgrey: #d3d3d3;
+  --grey: #808080;
+  --white: #f8f8f8;
+}
+
+ul {
+  list-style-type: none;
+}
+
+Link {
+  text-decoration: none;
+  color: var(--white);
+}
+

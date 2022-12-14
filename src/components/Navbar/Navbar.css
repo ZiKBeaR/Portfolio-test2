@@ -1,0 +1,49 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.nav-menu {
+  display: none;
+}
+
+
+
+
+
+@media only screen and (max-width: 940px) {
+  .nav-menu {
+    display: flex;
+      position: fixed;
+      right: -100%;
+      top: 10%;
+      flex-direction: column;
+      padding: 6% 3%;
+      background-color: #212121;
+      width:  45%;
+      height: 100%;
+      text-align: left;
+      transition: 0.4s;
+  }
+
+  .nav-menu.active {
+      right: 0;
+  }
+
+    .liclass {
+      margin: 2%;
+    }
+
+  .nav-items {
+      font-size: 1.8rem;
+  } 
+
+  .nav-items:hover{
+    cursor: pointer;
+  }
+  
+
+  
+}
