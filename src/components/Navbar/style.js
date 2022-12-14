@@ -56,14 +56,6 @@ export const Navbarcon = styled.div`
  width: 35px;
  height: 35px;  
 }
-@media only screen and (max-width: 375px) {
- width: 25px;
- height: 25px;  
-}
-@media only screen and (max-width: 320px) {
- width: 20px;
- height: 20px;  
-}
  `
 
  export const Right = styled.div`

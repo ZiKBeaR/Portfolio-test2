@@ -16,6 +16,10 @@ justify-content: center;
   display: flex;
   flex-direction: column-reverse;
 }
+
+@media only screen and (max-width: 430px) {
+  padding-top: 15%;
+}
 `
 
 export const Left = styled.div`
